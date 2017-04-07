@@ -25,7 +25,7 @@ dates = {}
 
 def add_statistic(row):
     if row[0] in dates:
-        return  # Avoid redundand data in statistics
+        return  # Avoid redundant data in statistics
     else:
         dates[row[0]] = 1
 
